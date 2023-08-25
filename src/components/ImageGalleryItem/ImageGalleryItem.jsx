@@ -28,6 +28,7 @@ export default function ImageGalleryItem({ data }) {
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
+    // eslint-disable-next-line
   }, [isModalOpen, closeModal]);
 
   return (
