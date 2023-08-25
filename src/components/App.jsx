@@ -61,6 +61,7 @@ export const App = () => {
     setPrevSearchQuery(searchQuery);
 
     fetchData();
+    //eslint-disable-next-line
   }, [searchQuery, currentPage]);
 
   const increasePage = () => {
